@@ -26,6 +26,9 @@ AYRA is a compact below-knee wearable that detects pre-symptomatic autonomic dys
 * 8-sensor fusion for early AD detection
 * On-device TinyML inference (int8) with <50 ms latency
 * Real-time alerting via OLED, buzzer, and Wi-Fi MQTT
+* Companion app for results, alerts, and trends
+
+AYRA includes a companion app for results and alerts; check the app screenshots below to understand the app experience.
 
 ## Demo / Examples
 
@@ -44,6 +47,23 @@ AYRA is a compact below-knee wearable that detects pre-symptomatic autonomic dys
 <p align="center">
   <img src="/chest.jpg" width="800"><br/>
   <i>Chest electrode view</i>
+</p>
+
+#### App Screenshots
+
+<p align="center">
+  <img src="/app-1.png" width="800"><br/>
+  <i>App dashboard view</i>
+</p>
+
+<p align="center">
+  <img src="/app-2.png" width="800"><br/>
+  <i>App results and trends view</i>
+</p>
+
+<p align="center">
+  <img src="/app-3.png" width="800"><br/>
+  <i>App alerts view</i>
 </p>
 
 ### Videos
@@ -91,10 +111,11 @@ The BMP180 barometric pressure sensor (MEMS piezo-resistive, I2C, PCB top side) 
 For firmware development (if building from source):
 
 ```bash
-# Example ESP-IDF workflow
+# ESP-IDF workflow (requires ESP-IDF installed)
 idf.py set-target esp32
 idf.py build
-idf.py flash monitor
+# Replace COM3 with your device port
+idf.py -p COM3 flash monitor
 ```
 
 ## File Structure (Optional)
@@ -103,6 +124,11 @@ idf.py flash monitor
 /ayra
   ├─ readme.md
   ├─ cover.jpg
+  ├─ leg.jpg
+  ├─ chest.jpg
+  ├─ app-1.png
+  ├─ app-2.png
+  ├─ app-3.png
   ├─ ayra-demo.mp4
   └─ esp.ino
 ```
