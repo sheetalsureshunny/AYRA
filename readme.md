@@ -26,7 +26,7 @@ AYRA is a compact below-knee wearable that detects pre-symptomatic autonomic dys
 * 8-sensor fusion for early AD detection
 * On-device TinyML inference (int8) with <50 ms latency
 * Real-time alerting via OLED, buzzer, and Wi-Fi MQTT
-* Companion app for results, alerts, and trends
+* Companion app dashboard for results, alerts, and trends
 
 AYRA includes a companion app for results and alerts; check the app screenshots below to understand the app experience.
 
@@ -91,47 +91,28 @@ When risk exceeds threshold, AYRA activates an OLED alert, buzzer, and sends an 
 ### 5. Ambient normalization with BMP180
 The BMP180 barometric pressure sensor (MEMS piezo-resistive, I2C, PCB top side) provides ambient normalization to remove environmental artefact from physiological readings.
 
+### 6. Companion app dashboard
+The app displays the safety score, risk level, and sensor trends in real time with alert summaries; see the app screenshots above for the interface.
+
 ## Usage Instructions
 
-1. Charge the device via USB-C and ensure the battery is full.
-2. Attach the wearable on the medial tibia, 3 cm below the kneecap, with firm contact on the skin-facing sensors.
-3. Power on and remain still for the 30-second baseline calibration.
-4. Monitor the OLED risk score. If risk exceeds the threshold, acknowledge the alert locally or via caregiver dashboard.
+1. Power ON the ESP32 MYOSA board.
+2. Connect all sensors properly.
+3. Upload firmware using Arduino IDE.
+4. Monitor safety score on OLED display.
+5. Open dashboard interface.
+6. Observe alerts during simulated transport conditions.
 
 ## Tech Stack
 
-* **ESP32 Dev Module** (Wi-Fi + TinyML)
-* **TensorFlow Lite Micro** (int8 inference)
-* **Sensors:** MAX30102, AD8232, GSR electrodes, MLX90614, MPU6050, SHT31, BMP180, APDS9960
-* **Display/Alert:** SSD1306 OLED, buzzer/vibration, status LED
-* **Messaging:** MQTT over Wi-Fi
-
-## Requirements / Installation
-
-For firmware development (if building from source):
-
-```bash
-# ESP-IDF workflow (requires ESP-IDF installed)
-idf.py set-target esp32
-idf.py build
-# Replace COM3 with your device port
-idf.py -p COM3 flash monitor
-```
-
-## File Structure (Optional)
-
-```
-/ayra
-  ├─ readme.md
-  ├─ cover.jpg
-  ├─ leg.jpg
-  ├─ chest.jpg
-  ├─ app-1.png
-  ├─ app-2.png
-  ├─ app-3.png
-  ├─ ayra-demo.mp4
-  └─ esp.ino
-```
+* **ESP32 MYOSA Board**
+* **Arduino IDE**
+* **Embedded C/C++**
+* **React.js**
+* **Vite**
+* **HTML/CSS/JavaScript**
+* **IoT Sensors**
+* **OLED Display**
 
 ## License (Optional)
 
