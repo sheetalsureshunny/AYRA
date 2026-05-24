@@ -3,7 +3,7 @@ publishDate: 2026-05-24
 
 title: AYRA
 
-excerpt: Real-time autonomic dysreflexia early warning using a single below-knee, multi-modal wearable with TinyML on ESP32.
+excerpt: Real time autonomic dysreflexia early warning using a single below knee, multi modal wearable with TinyML on ESP32.
 
 image: cover.jpg
 
@@ -26,10 +26,10 @@ We are Aaron, Mathew, Abhay, and Sheetal--the members of Team AYRA. We wish to s
 AYRA is a compact below-knee wearable that detects pre-symptomatic autonomic dysreflexia (AD) in people with spinal cord injury at or above T6/T7. It fuses multi-modal signals (GSR, HRV/PPG, ECG, skin temperature, humidity, and spasm motion) directly below the lesion, runs TinyML inference on an ESP32, and issues local + MQTT alerts within seconds.
 
 **Key features:**
-* Single below-knee placement with no inter-body wiring
+* Single below-knee placement with no inter body wiring
 * 8-sensor fusion for early AD detection
-* On-device TinyML inference (int8) with <50 ms latency
-* Real-time alerting via OLED, buzzer, and Wi-Fi MQTT
+* On device TinyML inference (int8) with <50 ms latency
+* Real time alerting via OLED, buzzer, and Wi-Fi MQTT
 * Companion app dashboard for results, alerts, and trends
 
 AYRA includes a companion app for results and alerts; check the app screenshots below to understand the app experience.
