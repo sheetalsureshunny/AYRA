@@ -52,6 +52,8 @@ AYRA is a compact below-knee wearable that detects pre-symptomatic autonomic dys
   <source src="/ayra-demo.mp4" type="video/mp4">
 </video>
 
+[Download the demo video](ayra-demo.mp4)
+
 ## Features (Detailed)
 
 ### 1. Below-knee autonomic signal capture
