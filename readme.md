@@ -2,11 +2,11 @@
 publishDate: 2026-05-24
 title: AYRA
 excerpt: Real-time autonomic dysreflexia early warning using a single below-knee, multi-modal wearable with TinyML on ESP32.
-image: ayra/ayra.png
+image: cover.jpg
 tags:
-  - tbd
-  - tbd
-  - tbd
+  - wearable
+  - tinyml
+  - esp32
 ---
 
 > Real-time autonomic dysreflexia detection from a single below-knee wearable.
@@ -32,14 +32,14 @@ AYRA is a compact below-knee wearable that detects pre-symptomatic autonomic dys
 ### Images
 
 <p align="center">
-  <img src="/ayra/ayra.png" width="800"><br/>
+  <img src="/cover.jpg" width="800"><br/>
   <i>AYRA wearable placement and enclosure overview</i>
 </p>
 
 ### Videos
 
 <video controls width="100%">
-  <source src="/ayra/arya.mp4" type="video/mp4">
+  <source src="/ayra-demo.mp4" type="video/mp4">
 </video>
 
 ## Features (Detailed)
@@ -87,8 +87,9 @@ idf.py flash monitor
 ```
 /ayra
   ├─ readme.md
-  ├─ ayra.png
-  └─ arya.mp4
+  ├─ cover.jpg
+  ├─ ayra-demo.mp4
+  └─ esp.ino
 ```
 
 ## License (Optional)
