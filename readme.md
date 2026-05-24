@@ -1,8 +1,12 @@
 ---
 publishDate: 2026-05-24
+
 title: AYRA
+
 excerpt: Real-time autonomic dysreflexia early warning using a single below-knee, multi-modal wearable with TinyML on ESP32.
+
 image: cover.jpg
+
 tags:
   - wearable
   - tinyml
@@ -15,7 +19,7 @@ tags:
 
 ## Acknowledgements
 
-None.
+We are Aaron, Mathew, Abhay, and Sheetal--the members of Team AYRA. We wish to sincerely thank Mr. Anil Anton, IEEE Sensors Council KS Academic Coordinator, for his invaluable mentorship, technical guidance, and unwavering encouragement throughout the development of this project. His academic oversight, organizational support, and belief in our work proved instrumental at every stage of bringing AYRA to life. We are further deeply grateful to the *IEEE Sensors Council* for providing the MYOSA platform through the hackathon framework, which gave us the opportunity to develop a solution with genuine clinical impact. This has been a privilege we truly cherish.
 
 ## Overview
 
@@ -37,11 +41,6 @@ AYRA includes a companion app for results and alerts; check the app screenshots 
 <p align="center">
   <img src="/cover.jpg" width="800"><br/>
   <i>AYRA wearable placement and enclosure overview</i>
-</p>
-
-<p align="center">
-  <img src="/leg.jpg" width="800"><br/>
-  <i>Leg placement view</i>
 </p>
 
 <p align="center">
@@ -114,10 +113,10 @@ The app displays the safety score, risk level, and sensor trends in real time wi
 * **IoT Sensors**
 * **OLED Display**
 
-## License (Optional)
-
-TBD.
-
 ## Contribution Notes (Optional)
 
 Open an issue or pull request with improvements, validation results, or UX feedback for clinical workflows.
+
+## License
+
+This project is licensed under the MIT License.
