@@ -56,6 +56,9 @@ A quantized int8 neural network processes a 60-second sliding window of features
 ### 4. Alerting and caregiver notification
 When risk exceeds threshold, AYRA activates an OLED alert, buzzer, and sends an MQTT SOS to a caregiver dashboard or phone.
 
+### 5. Ambient normalization with BMP180
+The BMP180 barometric pressure sensor (MEMS piezo-resistive, I2C, PCB top side) provides ambient normalization to remove environmental artefact from physiological readings.
+
 ## Usage Instructions
 
 1. Charge the device via USB-C and ensure the battery is full.
