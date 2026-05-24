@@ -93,6 +93,17 @@ The BMP180 barometric pressure sensor (MEMS piezo-resistive, I2C, PCB top side) 
 ### 6. Companion app dashboard
 The app displays the safety score, risk level, and sensor trends in real time with alert summaries; see the app screenshots above for the interface.
 
+## Sensor Usage
+
+* **MAX30102 (PPG/HRV):** heart rate and HRV features used for HR spike detection and risk scoring.
+* **AD8232 (ECG):** ECG waveform and QRS morphology changes to support risk scoring.
+* **GSR electrodes (EDA):** sympathetic surge detection and dGSR/dt spikes.
+* **MLX90614 (IR skin temp):** skin temperature drop below lesion as an early AD indicator.
+* **MPU6050 (IMU):** spasm and jerk detection plus motion artifacts.
+* **SHT31 (humidity/temp):** sweat rate changes and ambient context.
+* **BMP180 (pressure):** ambient normalization to remove environmental artifacts.
+* **APDS9960 (proximity/gesture/light):** user presence, ambient light correction, and gesture-based alert dismiss.
+
 ## Usage Instructions
 
 1. Power ON the ESP32 MYOSA board.
