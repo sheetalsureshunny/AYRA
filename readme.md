@@ -36,6 +36,16 @@ AYRA is a compact below-knee wearable that detects pre-symptomatic autonomic dys
   <i>AYRA wearable placement and enclosure overview</i>
 </p>
 
+<p align="center">
+  <img src="/leg.jpg" width="800"><br/>
+  <i>Leg placement view</i>
+</p>
+
+<p align="center">
+  <img src="/chest.jpg" width="800"><br/>
+  <i>Chest electrode view</i>
+</p>
+
 ### Videos
 
 <video controls width="100%">
