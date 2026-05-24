@@ -19,7 +19,7 @@ tags:
 
 ## Acknowledgements
 
-We are Aaron, Mathew, Abhay, and Sheetal--the members of Team AYRA. We wish to sincerely thank Mr. Anil Anton, IEEE Sensors Council KS Academic Coordinator, for his invaluable mentorship, technical guidance, and unwavering encouragement throughout the development of this project. His academic oversight, organizational support, and belief in our work proved instrumental at every stage of bringing AYRA to life. We are further deeply grateful to the *IEEE Sensors Council* for providing the MYOSA platform through the hackathon framework, which gave us the opportunity to develop a solution with genuine clinical impact. This has been a privilege we truly cherish.
+We are Aaron, Mathew, Abhay, and Sheetal , the members of Team AYRA. We wish to sincerely thank Mr. Anil Anton, IEEE Sensors Council KS Academic Coordinator, for his invaluable mentorship, technical guidance, and unwavering encouragement throughout the development of this project. His academic oversight, organizational support, and belief in our work proved instrumental at every stage of bringing AYRA to life. We are further deeply grateful to the *IEEE Sensors Council* for providing the MYOSA platform through the hackathon framework, which gave us the opportunity to develop a solution with genuine clinical impact. This has been a privilege we truly cherish.
 
 ## Overview
 
